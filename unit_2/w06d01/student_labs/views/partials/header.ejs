@@ -1,0 +1,16 @@
+
+<ul>
+  <li><a class="btn btn-secondary" href="/logs/new">Create a new log</a></li>
+  <a class="btn btn-secondary" href="/logs">Go HOME</a>
+  <% if (currentUser) { %>
+  <li>Welcome <%= currentUser.username %></li>
+  <li>
+    <form action="/sessions?_method=DELETE" method="POST">
+      <input class="btn btn-secondary" type="submit" value="Log Out"  />
+    </form>
+  </li>
+  <% } else { %>
+  <li><a class="btn btn-secondary" href="/users/new">Sign Up</a></li>
+  <li><a class="btn btn-secondary" href="/sessions/new">Log In</a></li>
+  <% } %>
+</ul>

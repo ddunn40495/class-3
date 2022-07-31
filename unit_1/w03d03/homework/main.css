@@ -1,0 +1,71 @@
+
+body {
+    background-image: url(https://www.washingtonpost.com/resizer/WWLs91LUlbMpRXQMbDcLPXlFUhg=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AA43TKRJCY7PJGI3Y6PWFEF44I.jpg);
+    background-size: cover;
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Alata', sans-serif;
+}
+
+#needs-div {
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    list-style: none;
+}
+
+#in-cart-div {
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    list-style: none;
+}
+
+#container {
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    
+}
+
+#top-row {
+    margin-top: 5rem;
+    margin-bottom: 3.75rem;
+}
+
+.big-header {
+    margin-bottom: 3.125rem;
+}
+
+.each-list{
+    height: 23.25rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #faf3dd;
+    
+    
+}
+
+.card-body {
+    background-color: #faf3dd;
+    
+
+}
+#list-left-header{
+    margin-bottom: 0px;
+}
+
+#list-right-header {
+    margin-bottom: 0px;
+}
+
+#needs-div {
+    padding: 0px;
+}
+
+#in-cart-div {
+    padding: 0px;
+}
+
+.no-display {
+    list-style: none;
+}

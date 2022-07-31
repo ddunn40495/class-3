@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      img {
+        width: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><%=product.name%></h1>
+    <a href="/products/<%=product.id%>/edit">Edit</a>
+    <img src=<%=product.img%> alt="">
+    <h3>Price: $<%=product.price%></h3>
+    <% if(product.qty <= 0) {%>
+      <h4>SOLD OUT</h4>
+    <%} else {%>
+      <h4>Qty: <%=product.qty%></h4>
+    <%}%>
+    <form action="/products/buy/<%=product.id%>?_method=PUT" method="post">
+      <button>Buy</button>
+    </form>
+    <form action="/products/<%=product.id%>?_method=DELETE" method="POST">
+      <button>DELETE</button>
+    </form>
+    <a href="/products">Home</a>
+  </body>
+</html>

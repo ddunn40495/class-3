@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <!-- CSS and CDN in partials -->
+         <%- include ('./partials/head.ejs') %>
+    </head>
+    <body>
+        <nav>
+            <a class="btn btn-secondary" href="/Store">Index Route</a>
+
+        </nav>
+        <h2>Product Page</h2>
+        <!-- Main Container -->
+        <div class="container">
+            <!-- Just 1 row -->
+           <div class="row">
+               <!-- Just 1 col -->
+               <div class="col">
+                   <!-- Card class -->
+                   <div class="card">
+                       <div class="card-body">
+                           <!-- Pic Div -->
+                        <img class="item-show" src="<%= product.img  %>" alt="<%= product.name %> ">
+                       
+                        <h1><%= product.name %> </h1>
+        
+                        <h3><%= product.description %> </h3>
+
+                        <h3><%= product.price %> </h3>
+                        <h3><%= product.qty %> items in stock</h3>
+
+                         <!-- Buy Button If statement -->
+                         <% if (product.qty <= 0) {%>
+
+                            <!-- out of stock message -->
+                            <h4> OUT OF STOCK</h4>
+
+                        <% } else {%>  
+
+                            <!-- Show Buy Button -->
+                            <form action="/store/<%=product.id; %>?_method=PATCH" method="POST">
+                                <input class="btn btn-secondary" type="submit" value="BUY"/>
+                            </form> 
+                            <% } %>  
+
+                        <a class="btn btn-secondary" href="/store/<%=product.id; %>/edit">Edit</a>
+                                 <form action="/store/<%=product.id; %>?_method=DELETE" method="POST">
+                                    <input class="btn btn-secondary" type="submit" value="remove"/>
+                                </form>  
+                       </div>
+
+                   </div>
+
+               </div>
+
+           </div>
+                
+
+        
+        </div>
+        <footer>
+            <!-- Script Tags in partials folder -->
+        <%- include ('./partials/footer.ejs') %>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+
+body {
+    margin: auto;
+}
+
+
+#sailboat {
+    background-image: url(img/sailboat.jpg);
+    height: 40em;
+    width: 80em;
+    background-size: cover;
+}
+
+.together {
+
+}
+
+#crew {
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+}
+#big-text-sec {
+    height: 25em;
+    width: 87.5em;
+}
+
+#nav-div {
+    height: 4.4375em;
+    width: 87.5em;
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "lacey",
+    "species": "dog",
+    "breed": "shih tzu",
+    "image": "https://i.imgur.com/lEyJ04f.jpg",
+    "age": 4,
+    "adopted": "True",
+    "medIssues": "False",
+    "goodForApt": "True",
+    "likes": 500,
+    "personalityTraits": ["playful", "likes to sleep", "favorite toy is rope"]
+  },
+  {
+    "name": "travis scott",
+    "species": "dog",
+    "breed": "shih tzu",
+    "image": "https://i.imgur.com/lEyJ04f.jpg",
+    "age": 4,
+    "adopted": "True",
+    "medIssues": "False",
+    "goodForApt": "True",
+    "likes": 500,
+    "personalityTraits": ["playful", "likes to sleep", "favorite toy is rope"]
+  },
+  {
+    "name": "bad bunny",
+    "species": "dog",
+    "breed": "shih tzu",
+    "image": "https://i.imgur.com/lEyJ04f.jpg",
+    "age": 4,
+    "adopted": "True",
+    "medIssues": "False",
+    "goodForApt": "True",
+    "likes": 500,
+    "personalityTraits": ["playful", "likes to sleep", "favorite toy is rope"]
+  },
+  {
+    "name": "jason",
+    "species": "dog",
+    "breed": "shih tzu",
+    "image": "https://i.imgur.com/lEyJ04f.jpg",
+    "age": 4,
+    "adopted": "True",
+    "medIssues": "False",
+    "goodForApt": "True",
+    "likes": 500,
+    "personalityTraits": ["playful", "likes to sleep", "favorite toy is rope"]
+  },
+  {
+    "name": "halsey",
+    "species": "dog",
+    "breed": "shih tzu",
+    "image": "https://i.imgur.com/lEyJ04f.jpg",
+    "age": 4,
+    "adopted": "True",
+    "medIssues": "False",
+    "goodForApt": "True",
+    "likes": 500,
+    "personalityTraits": ["playful", "likes to sleep", "favorite toy is rope"]
+  },
+  {
+    "name": "adele",
+    "species": "dog",
+    "breed": "shih tzu",
+    "image": "https://i.imgur.com/lEyJ04f.jpg",
+    "age": 4,
+    "adopted": "True",
+    "medIssues": "False",
+    "goodForApt": "True",
+    "likes": 500,
+    "personalityTraits": ["playful", "likes to sleep", "favorite toy is rope"]
+  },
+  {
+    "name": "roddy",
+    "species": "dog",
+    "breed": "shih tzu",
+    "image": "https://i.imgur.com/lEyJ04f.jpg",
+    "age": 4,
+    "adopted": "True",
+    "medIssues": "False",
+    "goodForApt": "True",
+    "likes": 500,
+    "personalityTraits": ["playful", "likes to sleep", "favorite toy is rope"]
+  },
+  {
+    "name": "harry",
+    "species": "dog",
+    "breed": "shih tzu",
+    "image": "https://i.imgur.com/lEyJ04f.jpg",
+    "age": 4,
+    "adopted": "True",
+    "medIssues": "False",
+    "goodForApt": "True",
+    "likes": 500,
+    "personalityTraits": ["playful", "likes to sleep", "favorite toy is rope"]
+  },
+  {
+    "name": "gabby",
+    "species": "dog",
+    "breed": "shih tzu",
+    "image": "https://i.imgur.com/lEyJ04f.jpg",
+    "age": 4,
+    "adopted": "True",
+    "medIssues": "False",
+    "goodForApt": "True",
+    "likes": 500,
+    "personalityTraits": ["playful", "likes to sleep", "favorite toy is rope"]
+  }
+]

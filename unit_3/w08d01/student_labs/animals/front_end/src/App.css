@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.first-box {
+  height: 14.75rem;
+  background-color: grey;
+  margin-right: 4.6875rem;
+}
+
+.second-box {
+  height: 13.125rem;
+  background-color: grey;
+}
+
+.third-box {
+  height: 31.875rem;
+  background-color: grey;
+}
+
+.fourth-box {
+  height: 35.8125rem;
+  background-color: grey;
+}
+
+.pet-box {
+  margin: 15px;
+}
+.row-1 {
+  height: 14.75rem;
+  margin-bottom: 1.875rem;
+  margin-top: 1.875rem;
+}
+
+.inter-row-1,
+.inter-row-2,
+.inter-row-3 {
+  margin: 1rem;
+}
+
+.item-row1,
+.item-row2,
+.item-row3 {
+  margin: 1.5625rem;
+  height: 9.375rem;
+}
+
+.icon-div {
+  margin-top: 3.75rem;
+}
+
+.pic-div {
+  height: 15rem;
+}
+
+.pic-div {
+  background-image: url("https://www.ajc.com/resizer/vS9sSSNj8QQt3D1N1KBFCGX1D-0=/1066x600/cloudfront-us-east-1.images.arcpublishing.com/ajc/YM74F4RK5LURDN4H7EC5BWRVJI.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pic-row,
+.form-row {
+  height: 15.625rem;
+}

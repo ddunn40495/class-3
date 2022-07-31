@@ -1,0 +1,33 @@
+.tac-box {
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+    
+    
+    
+}
+#major {
+    text-align: center;
+    margin: 130px;
+}
+
+.o {
+    background-image: url(https://img.pngio.com/alphabet-blue-letter-letters-o-icon-png-that-begins-with-letter-o-512_512.png);
+    background-size: cover;
+}
+
+.x {
+    background-image: url(https://www.shareicon.net/data/512x512/2016/10/20/846455_letter_512x512.png);
+    background-size: cover;
+}
+
+.winner {
+    background-image: url(https://www.thesun.co.uk/wp-content/uploads/2018/12/poch3-e1543958874664.jpg);
+    background-size: cover;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+  }

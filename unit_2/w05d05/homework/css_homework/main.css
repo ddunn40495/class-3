@@ -1,0 +1,54 @@
+ .container {
+    border: 5px solid grey ;
+}
+
+.yell-box {
+    background-color: yellow;
+    background-size: cover;
+
+}
+.white-box {
+    background-color: white;
+    background-size: cover;
+
+}
+.red-box {
+    background-color: red;
+    background-size: cover;
+
+}
+.blue-box {
+    background-color: blue;
+    background-size: cover;
+
+}
+.row-1 {
+    height: 140px;
+    border: 5px solid black
+}
+
+.row-2 {
+    height: 175px;
+    border: 5px solid black;
+
+}
+
+.row-3 {
+    height: 75px;
+    border: 5px solid black;
+
+}
+
+.row-4 {
+    height: 88px;
+    border: 5px solid black;
+}
+
+.no-border-bott {
+    border-bottom: none;
+    height: 75px;
+}
+.no-border-top {
+    border-top: none;
+    height: 75px;
+}

@@ -1,0 +1,34 @@
+* {
+  border: 1px solid gold;
+}
+
+body {
+  background: #eee;
+}
+
+.half,
+.third {
+  background: ghostwhite;
+  display: inline-block;
+  width: 48%;
+  padding: 2%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.half > img,
+.third > img {
+  max-width: 50%;
+  float: left;
+  margin-right: 5%;
+}
+
+.third {
+  width: 30%;
+  min-height: 280px;
+}

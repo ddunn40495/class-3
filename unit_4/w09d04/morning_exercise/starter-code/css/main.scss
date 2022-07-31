@@ -1,0 +1,18 @@
+img {
+  width: 100px;
+}
+$featured-content-width: 40%;
+
+$sg-grey: gainsboro;
+$sg-black: #515358;
+$sg-white: #fcfcfc;
+$sg-yellow: #ffcf73;
+$sg-red: #f1534e;
+
+.featured {
+  display: flex;
+  width: 98%;
+  margin: auto;
+  justify-content: space-around;
+  background-color: darken($sg-grey, 30%);
+}

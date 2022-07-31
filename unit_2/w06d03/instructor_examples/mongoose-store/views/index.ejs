@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      img {
+        width: 250px;
+      }
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mongoose Store</h1>
+    <a href="/products/new"><h3>Add a Product</h3></a>
+    <%for (product of products) {%>
+      <div>
+        <a href="/products/<%=product.id%>"><h3><%=product.name%></h3></a>
+        <img src="<%=product.img%>"/>
+      </div>
+    <%}%>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+      body {
+        background-image: url(equations-1599758090423-2463.jpg);
+        background-size: cover;
+    }
+    .card-body {
+        background-color: #e0ece4;
+    }
+    .everything, body {
+      
+      font-family: 'Roboto Mono', monospace;
+
+    }
+
+    .form-edit {
+        margin-top: 40px;
+    }
+        

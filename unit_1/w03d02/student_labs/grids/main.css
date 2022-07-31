@@ -1,0 +1,27 @@
+body {
+   
+}
+
+.container {
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+}
+
+.black {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px black;
+    display: inline-block;
+    background-color: black;
+}
+
+.red {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px black;
+    display: inline-block;
+    background-color: red;
+}

@@ -1,0 +1,19 @@
+/* Default Mobile Styling */
+body {
+  background: red;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Media Query for Desktop CSS */
+@media (min-width: 600px) {
+  body {
+    background: grey;
+  }
+  .container {
+    flex-direction: column;
+  }
+}

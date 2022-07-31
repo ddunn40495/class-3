@@ -1,0 +1,44 @@
+#concierge {
+    background-image: url(images/concierge.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#doc-on-call {
+    background-image: url(images/doctor.jpg);
+    background-size: cover;
+    position: relative;
+}
+#you-and-fam {
+    background-image: url(images/business.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#poster {
+    background-image: url(images/OscarCover.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px;
+}
+.text {
+    position:absolute;
+    bottom:0;
+    text-align:center;
+}
+.mrow {
+    height: 302px;
+}
+#push {
+    padding-left: 700px;
+}
+middle {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#bottom-buttons {
+    margin-left: 250px;
+    margin-right: 250px;
+}

@@ -1,0 +1,62 @@
+/* =============
+    GENERAL
+============= */
+body {
+  font-family: arial;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+/* =============
+  MAIN CONTENT
+============= */
+.main-content {
+  width: 80%;
+}
+.banner > img {
+  width: 100%;
+}
+.categories {
+  margin: 3% 0;
+}
+.categories, .site-info {
+  display: flex;
+  justify-content: space-between;
+}
+.categories > img {
+  width: 31%;
+}
+.site-info > img {
+  width: 48%;
+}
+/* =============
+    SIDEBAR
+============= */
+.sidebar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo > img {
+  width: 25%;
+  opacity: 0.5;
+}
+.sidebar > ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar li {
+  margin: 10px 0;
+}
+.sidebar a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.cat-nav {
+  text-transform: uppercase;
+}
+.site-nav {
+  text-transform: capitalize;
+}
